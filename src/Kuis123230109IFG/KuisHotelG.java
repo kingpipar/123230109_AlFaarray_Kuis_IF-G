@@ -31,7 +31,7 @@ private static void LoginForm(){
         loginButton.addActionListener(e -> {
            String username = userField.getText();
            String password = new String(passwordField.getPassword());
-           if(username.equals("1") && password.equals("1")){
+           if(username.equals("123230109") && password.equals("ifkelasg")){
                JOptionPane.showMessageDialog(frame, "Login berhasil!");
                frame.dispose();
                LandingPage();
